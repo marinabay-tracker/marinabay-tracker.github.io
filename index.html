@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Safe Harbor Marina Bay Tracker</title>
+  </head>
+  <body>
+    <div class="main-logo">
+      <img src="main-logo.svg" alt="" />
+    </div>
+
+    <h1 class="heading">Marina Bay Slips Tracker</h1>
+
+    <div class="docks">
+      <div class="dock-box"></div>
+    </div>
+
+    <!-- Day.js -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script>
+    <script>
+      dayjs.extend(dayjs_plugin_relativeTime);
+    </script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-database-compat.js"></script>
+
+    <!-- Your JS -->
+    <script src="main.js" defer></script>
+  </body>
+</html>

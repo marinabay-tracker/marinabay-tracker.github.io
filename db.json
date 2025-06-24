@@ -1,0 +1,112 @@
+{
+  "docks": {
+    "L": {
+      "slips": {
+        "L03": {
+          "status": "open",
+          "last_updated": "2025-06-24T02:53:54.595225Z"
+        },
+        "L08": {
+          "status": "occupied",
+          "last_updated": "2025-06-24T02:33:54.595263Z"
+        },
+        "L10": {
+          "status": "occupied",
+          "last_updated": "2025-06-24T02:25:54.595279Z"
+        }
+      }
+    },
+    "A": {
+      "slips": {
+        "A03": {
+          "status": "open",
+          "last_updated": "2025-06-24T03:01:54.595290Z"
+        },
+        "A05": {
+          "status": "occupied",
+          "last_updated": "2025-06-24T02:57:54.595298Z"
+        },
+        "A12": {
+          "status": "open",
+          "last_updated": "2025-06-24T02:45:54.595317Z"
+        },
+        "A15": {
+          "status": "occupied",
+          "last_updated": "2025-06-24T02:41:54.596143Z"
+        }
+      }
+    },
+    "B": {
+      "slips": {
+        "B01": {
+          "status": "open",
+          "last_updated": "2025-06-24T03:01:54.596171Z"
+        },
+        "B07": {
+          "status": "open",
+          "last_updated": "2025-06-24T02:53:54.596185Z"
+        }
+      }
+    },
+    "K": {
+      "slips": {
+        "K01": {
+          "status": "open",
+          "last_updated": "2025-06-24T03:01:54.596193Z"
+        },
+        "K03": {
+          "status": "open",
+          "last_updated": "2025-06-24T02:53:54.596204Z"
+        },
+        "K04": {
+          "status": "occupied",
+          "last_updated": "2025-06-24T02:49:54.596210Z"
+        },
+        "K07": {
+          "status": "open",
+          "last_updated": "2025-06-24T02:37:54.596228Z"
+        },
+        "K08": {
+          "status": "occupied",
+          "last_updated": "2025-06-24T02:33:54.596234Z"
+        },
+        "K09": {
+          "status": "open",
+          "last_updated": "2025-06-24T02:29:54.596240Z"
+        },
+        "K12": {
+          "status": "occupied",
+          "last_updated": "2025-06-24T02:17:54.596257Z"
+        }
+      }
+    },
+    "C": {
+      "slips": {
+        "C10": {
+          "status": "open",
+          "last_updated": "2025-06-24T02:53:54.596285Z"
+        }
+      }
+    },
+    "G": {
+      "slips": {
+        "G01": {
+          "status": "open",
+          "last_updated": "2025-06-24T03:01:54.596293Z"
+        },
+        "G02": {
+          "status": "occupied",
+          "last_updated": "2025-06-24T02:57:54.596300Z"
+        },
+        "G07": {
+          "status": "open",
+          "last_updated": "2025-06-24T02:37:54.596329Z"
+        },
+        "G08": {
+          "status": "occupied",
+          "last_updated": "2025-06-24T02:33:54.596336Z"
+        }
+      }
+    }
+  }
+}

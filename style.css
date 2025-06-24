@@ -1,0 +1,87 @@
+/* ===== Simple Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  color: #222;
+  line-height: 1.5;
+}
+
+/* ===== Main ===== */
+.main-logo {
+  width: 100%;
+  height: auto;
+  margin: 40px auto;
+  cursor: pointer;
+}
+.main-logo img {
+  display: block;
+  width: 160px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 26px;
+  color: #222;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 60px;
+}
+
+.docks {
+  position: relative;
+  max-width: 768px;
+  margin: 20px auto;
+}
+.dock-box {
+  margin: 20px;
+}
+.dock-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.slips {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.slip {
+  color: #fff;
+  padding: 16px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.slip:hover {
+  transform: scale(1.02);
+}
+.slip.open {
+  background-color: #1dd1a1;
+}
+.slip.occupied {
+  background-color: #ee5253;
+}
+.slip.overdue {
+  background-color: #fdcb6e;
+}
+.slip-number {
+  font-size: 18px;
+  font-weight: 600;
+}
+.slip-last-updated {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 4px;
+}
